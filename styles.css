@@ -1,0 +1,102 @@
+@charset "utf-8";
+body{
+	text-align: center;
+}
+header{
+	background-color: #BFD4FF;
+	padding: 5px 0 0 0;
+	text-align: center;
+	color: #541bc4;
+	font-family: 'bubblegum-sans';
+	display: grid;
+	grid-area: 1/span 3;
+}
+nav{
+	background-color: #7070E0;
+	border-top: #541BC4 solid 4px;
+	color: #ffffff;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+nav a{
+	color: #ffffff;
+	text-decoration: none;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li{
+	display: inline-block;
+	width: 80px;
+	padding: 10px;
+	margin-right: 30px;
+	font-size: 85%;
+	
+}
+footer{
+	font-size: small;
+	border-top: #541BC4 solid 4px;
+	text-align: left;
+	display: grid;
+	grid-area: 3/span 3;
+	margin-top: 20px; 
+}
+footer p{
+	margin-left: 20px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: .25fr .5fr .25fr;
+}
+.regForm{
+	background-color: #BFD4FF;
+	border: solid #541BC4 thin;
+	border-radius: 10px;
+	display: grid;
+	grid-area: 2/2;
+}
+.signForm{
+	background-color: #BFD4FF;
+	border: solid #541BC4 medium;
+	border-radius: 10px;
+	display: grid;
+	grid-area: 2/2;
+}
+.signForm h1{
+	color: #541BC4;
+}
+.signForm a{
+	display: inline;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+.regForm h1{
+	color: #541BC4;
+}
+label{
+	color: #541BC4;
+}
+.form{
+	text-align: right;
+	margin-right: 26%;
+}
+.form2{
+	text-align: right;
+	margin-right: 26%;
+}
+.submit{
+	background-color: #541BC4;
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
+	border: solid white thin;
+}
+input{
+	border: solid #541BC4 thin;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
